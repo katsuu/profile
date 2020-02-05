@@ -33,9 +33,10 @@ h3 {
 }
 
 #banner p {
-  width: 420px;
+  width: 450px;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: lighter;
   padding: 10px;
 }
 
@@ -86,6 +87,7 @@ h3 {
 .card {
   background: white;
   color: rgb(60, 60, 60);
+  font-size: 18px;
   padding: 50px 60px;
   margin: 20px 80px;
   margin-bottom: 60px;
