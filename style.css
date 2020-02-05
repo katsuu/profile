@@ -25,7 +25,7 @@ h3 {
 }
 
 #banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(images/banner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/banner.jpg);
   background-size: cover;
   background-position: center;
   padding: 50px;
@@ -34,7 +34,7 @@ h3 {
 }
 
 #profile-picture {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(images/Katrina1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/Katrina1.jpg);
   background-size: cover;
   background-position: center;
   height: 200px;
@@ -83,10 +83,11 @@ a:hover {
   margin-bottom: 60px;
   text-align: center;
   border-radius: 20px;
+  box-shadow: 2px 2px 10px grey;
 }
 
 .footer {
-  text-align: right;
+  text-align: center;
   margin: 0 auto;
   padding: 20px 20px;
   background: rgb(20, 20, 20);
