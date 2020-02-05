@@ -1,0 +1,127 @@
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  background: rgb(250, 250, 250);
+  color: rgb(250, 250, 250);
+  margin: 0 auto;
+}
+
+h1{
+  font-weight: 700;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#profile-picture {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(images/Katrina1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+
+.btn-purple {
+  font-size: 14px;
+  border: solid, 5px, #6369E5;
+  background-color: #6369E5;
+  text-decoration: none;
+  color: white;
+  margin: 20px auto;
+  padding: 20px 20px;
+  width: 180px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #555bcc;
+  color: white;
+  font-size: 15px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.content-container i {
+  color: #6369E5;
+  font-size: 50px;
+}
+
+.card {
+  background: white;
+  color: rgb(60, 60, 60);
+  padding: 50px 60px;
+  margin: 20px 80px;
+  margin-bottom: 60px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.footer {
+  text-align: right;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background: rgb(20, 20, 20);
+  color: rgb(240, 240, 240);
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+}
+
+.footer a:hover {
+  font-size: 25px;
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+@media (max-width: 400px) {
+  .content-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .card {
+    margin: 18px auto;
+  }
+}
+
